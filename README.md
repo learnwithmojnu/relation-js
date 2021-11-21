@@ -40,3 +40,7 @@
 - querySelector() only returns the first element of the document. 
 - If you want to get all matches, use the querySelectorAll() method instead.
 - **How will you select all html tags that has the “blog” class?** `*document.querySelectorAll('.blog')*`
+
+### setAttribute
+`*var setAlt = document.querySelector('.image');*`
+        `*setAlt.setAttribute('alt', 'fish');*`

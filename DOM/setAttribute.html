@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Attribute</title>
+</head>
+<body>
+    <img src="https://mojnu.tech/static/media/mojnumiah.1f8c09eb.png" class="image"/>
+    <script>
+        document.querySelector('.image').src = 'res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/DCTM_Penguin_UK_DK_AL644648_p7nd0z.jpg';
+
+        //create a attribute and set value
+        var setAlt = document.querySelector('.image');
+        setAlt.setAttribute('alt', 'fish');
+        var title = document.querySelector('title');
+        title.innerHTML = 'Change Attribute from JS';
+    </script>
+</body>
+</html>
