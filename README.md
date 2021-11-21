@@ -42,5 +42,11 @@
 - **How will you select all html tags that has the “blog” class?** `*document.querySelectorAll('.blog')*`
 
 ### setAttribute
-`*var setAlt = document.querySelector('.image');*`
-        `*setAlt.setAttribute('alt', 'fish');*`
+*`var setAlt = document.querySelector('.image');`*
+*`setAlt.setAttribute('alt', 'fish');`*
+
+### create Element Using JavaScript
+`var header = document.body;`
+      ` var h1 = document.createElement('h1');`
+       ` h1.innerHTML = "I am h1 tag created by JS"`
+       ` header.appendChild(h1);`
