@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Element By Class Name</title>
+    <style>
+        body {
+            width: 80%;
+            margin: 0 auto;
+        }
+        article {
+            border: 1px solid red;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h3>article-1</h3>
+        <p class="author">author-1</p>
+        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio provident fuga quibusdam voluptatum vero expedita voluptates amet inventore quaerat, natus perspiciatis quo deserunt atque corporis impedit, laborum praesentium! Ratione, officiis.</p>
+    </article>
+    <article>
+        <h3>article-2</h3>
+        <p class="author">author-2</p>
+        <p class="description">Veritatis saepe odit illum in laudantium et quis rem molestiae iste doloremque tenetur fuga at doloribus accusantium eligendi amet, cum ipsa, quod inventore exercitationem? Expedita a praesentium doloribus deleniti ratione.</p>
+    </article>
+    <article>
+        <h3>article-3</h3>
+        <p class="author">author-3</p>
+        <p class="description">Corrupti consequatur ut maiores illo corporis accusamus aliquid officiis tempora, quod quia temporibus, labore reiciendis nisi illum, dolore at error dolor! Perferendis cumque quibusdam omnis ipsum ut minus non temporibus!</p>
+    </article>
+
+    <script>
+        var authors = document.getElementsByClassName('author');
+        console.log(authors);
+        for (let index = 0; index < authors.length; index++) {
+            const element = authors[index];
+            element.style.textAlign = 'center';
+            element.innerHTML = 'Mojnu';
+        }
+    </script>
+</body>
+</html>
