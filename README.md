@@ -18,7 +18,7 @@
 ##  What is DOM?
 - we can access HTML document from javascript and update html, create a new html, delete html
 - The document has `<html>, <body>, <div>, <h1>` tag. All tags are called Object. If we want access `<body>` tag: `document.body`. If we access `h1` which is a child of the body, we use `document.body.h1`. We access document object in many ways, 
-- querySelector
-- querySelectorAll
-- getElementById
-- getElementByClassName
+*querySelector*
+*querySelectorAll*
+*getElementById*
+*getElementsByClassName*
