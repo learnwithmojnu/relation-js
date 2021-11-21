@@ -50,3 +50,12 @@
       ` var h1 = document.createElement('h1');`
        ` h1.innerHTML = "I am h1 tag created by JS"`
        ` header.appendChild(h1);`
+
+### properties vs attributes
+
+## add Event Listener and Event Bubble
+### callback Function
+- pass a function as a parameter
+
+### arguments
+- What will happen if you try to add an element to the arguments using push? *arguments are not array. It's an array like object and will give an error*
