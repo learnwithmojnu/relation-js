@@ -73,4 +73,6 @@
        ` })`
 
 ### Event Bubble
-(http://www.java2s.com/Tutorials/JavascriptImage/eventBubble.png)[http://www.java2s.com/Tutorials/JavascriptImage/eventBubble.png]
+[http://www.java2s.com/Tutorials/JavascriptImage/eventBubble.png](http://www.java2s.com/Tutorials/JavascriptImage/eventBubble.png)
+
+### add element, delete element and replace element

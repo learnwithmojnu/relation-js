@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubble</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Movie List</h1>
+        <ul id="myList">
+            <li class="item-1">A Beautiful Mind</li>
+            <li>Good Will Hunting</li>
+            <li>Forest Gumb</li>
+            <li>Tere Jamin Par</li>
+        </ul>
+    </div>
+    <script>
+        var item1 = document.querySelector('.item-1');
+        item1.addEventListener('click', function(event){
+            console.log('List Item 1 clicked');
+            event.stopPropagation();
+        });
+        document.getElementById('myList').addEventListener('click', function(){
+            console.log('UL clicked');
+        })
+        document.getElementById('container').addEventListener('click', function(){
+            console.log('Container clicked');
+        })
+    </script>
+</body>
+</html>
